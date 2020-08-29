@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_Cheat_Qurstion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:gravity="center"
+        android:text="@string/textView_Cheat_Question"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_Cheat_answer_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8sp"
+        android:gravity="center"
+        android:textColor="#0BD313"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="پاسخ" />
+
+    <Button
+        android:id="@+id/btn_show_cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:text="@string/btn_cheat"
+        android:textSize="24sp" />
+
+</LinearLayout>
